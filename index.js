@@ -1,5 +1,6 @@
 const { getLinks } = require("./scripts/link.js");
-const searchLinks = require("./scripts/searchLinks.js");
+const searchLinks = require("./scripts/searchLinks.js"); 
+/* test */
 const prompt = require("prompt-sync")();
 
 const searchUrl = prompt("Enter a url: ");
